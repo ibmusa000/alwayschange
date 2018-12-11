@@ -1,0 +1,152 @@
+#body
+{
+    font-family: sans-serif;
+    background-color: white;
+}
+body-p
+{
+    font-size: 0.8em;
+    line-height: 1.28;
+}
+#wrapper
+{
+    width: 1085px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 8px;
+    border: 5px solid #0a0a0a;
+    height: 790px;
+    text-align: center;
+}
+#banner
+{
+    background-image: url(waterfall2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #0c0b0b;
+    height: 100px;
+    text-align: center;
+}
+
+#content-area
+{
+    float: right;
+    width: 750px;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer
+{
+    background-image: url(waterfall2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+    width: auto;
+    height: 8px;
+    padding: 10px;
+    border: 5px solid #050505;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0.1em 0.1em #050505;
+    height: 95px;
+}
+#navigation
+{
+    background-image: url(waterfall2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    border: 3px solid rgb(7, 6, 6);
+    margin-top: 18px;
+    text-shadow: 0.1em 0.1em #333;
+    
+}
+
+#nav
+{
+    list-style: none;
+}
+
+#nav ul
+{
+    margin: 0;
+    padding: o;
+    width: auto;
+    display: none;
+}
+
+#nav li
+{
+    font-size: 24px;
+    float: left;
+    position: relative;
+    width: 180px;
+    height: 50px;
+}
+
+#nav a:link, nav a:active nav a: :visited
+{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav a:hover
+{
+    color: red;
+    border: 3px solid blue;
+}
+
+
+.contact-title
+{
+    margin-top: 100px;
+    color: rgb(9, 241, 20);
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.form
+{
+    margin-top: 10px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control
+{
+    float: center;
+    width: 550px;
+    border: 5px solid black;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: darkblue;
+    font-size: 18px;
+    margin-bottom: 18px;
+    height: 115px;
+}
+input
+{
+    height: 20px;
+    background-color: rgb(102, 122, 126);
+    width: 300px;
+}
+
+form .submit
+{
+    background: rgb(41, 5, 248);
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin: 20px;
+    border: 3px solid darkblue;
+}
+form .submit:hover
+{
+    background-color: tomato;
+    cursor: pointer;
+}

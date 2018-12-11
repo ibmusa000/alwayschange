@@ -1,0 +1,15 @@
+#body
+{
+    font-family: sans-serif;
+    background: white;
+}
+#wrapper
+{
+    width: 1090px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid black;
+    height: 970;
+    text-align: center;
+}
